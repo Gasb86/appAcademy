@@ -1,0 +1,68 @@
+/* 
+Este es el CSS del primer ejemplo para PracticeCSS
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 10px;
+    font-weight: 20px;
+    text-decoration: none;
+    color: red;
+    background-color: lightcyan;
+}
+
+h2 {
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 10px;
+    color: lightcoral;
+    background-color: darkblue;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    color: green;
+    background-color: antiquewhite;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+} */
+
+
+.profile {
+    display: inline-block;
+    padding: 30px 30px;
+    background-color: white;
+    font-size: 20px;
+    color: red;
+}
+
+.biography {
+    display: inline-block;
+    border: 5px solid black;
+    background-color: cadetblue;
+    padding: 1em;
+    font-size: 18px;
+}
+
+.footer-3-wide {
+    display: inline-block;
+    border: 5px solid black;
+    background-color: pink;
+    padding: 1em;
+    font-size: 25px;
+    /* font-weight: 600; */
+}
