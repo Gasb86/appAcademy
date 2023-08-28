@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-La">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="layout.css">
+        <title>Learnign the Forms</title>
+    </head>
+    <body>
+        <h1>Hello, Forms!</h1>
+        <form class="form" action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                <div class="lastName">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email_address">
+                </div>
+                <div class="Status">
+                    <label for="status">Status</label>
+                    <select name="status" name="user_status">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Choose your favorite programming language</p>
+                    <div class="radioBut1">
+                        <div>
+                            <input type="radio" id="radio1" name="radioButton">
+                            <label for="radio1">HTML</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio2" name="radioButton">
+                            <label for="radio2">CSS</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio1" name="radioButton">
+                            <label for="radio1">JvaScript</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" cols=70px></textarea>
+                </div>
+                <div class="checkcontainer">
+
+                </div>
+                <div>
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Sign up for newsletter</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Agree to terms and conditions</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+    
+</html>

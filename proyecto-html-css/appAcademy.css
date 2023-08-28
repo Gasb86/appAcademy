@@ -1,0 +1,59 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 20px;
+    margin: 5px;
+}
+
+.imgMain {
+    height:300px;
+    justify-content: flex-end;
+    left: 20px;
+}
+
+.img-End {
+    height: 70px;
+    justify-content: flex-end;
+    left: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ini {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+}
+
+.end ul {
+    display: flex;
+    margin: 10px;
+}
+
+.end li {
+    display: flex;
+    margin: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
